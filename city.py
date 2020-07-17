@@ -75,4 +75,4 @@ async def clear_error(ctx, error):
 	if isinstance(error, commands.CommandNotFound):
 		pass
 # Run bot
-client.run(os.environ['DISCORD_TOKEN'])
+client.run(os.environ['DISCORD_KEY'])
